@@ -13,7 +13,7 @@ function App() {
   const [image, setImage] = useState(photo)
 
   const appStyles = {
-    backgroundImage: `url(../fortuna-1/fondo${image}.png)`,
+    backgroundImage: `url(../fortuna-1/fondo${image}.webp)`,
   }
 
   return (
