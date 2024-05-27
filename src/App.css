@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Lemonada:wght@300..700&family=Lexend+Mega:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap');
+
+/* reset */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html{
+  font-family: "Lexend Mega", sans-serif;
+}
+
+body{
+  background-color: black;
+  color: white
+}
+
+button{
+  cursor:pointer;
+  font-family: inherit;
+  text-align: center;
+  border: none;
+}
+/* App */
+
+.app{
+  min-height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content:space-around;
+}
+
+.app__title{
+  width: 400px;
+  color:#FCC96E;
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: 800;
+  padding: 2rem 3rem;
+  border: 3px solid #FCC96E;
+  border-radius: 15px;
+  box-shadow: 0 0 25px black;
+  backdrop-filter: blur(10px);
+  overflow: hidden;
+  text-shadow:0px 3px 3px #240D07;
+}
+
+.app__btn{
+background: linear-gradient(0deg, rgba(166,94,31,1) 0%, rgba(209,137,53,1) 16%, rgba(252,201,110,1) 46%, rgba(209,137,53,1) 83%, rgba(166,94,31,1) 99%);
+padding: 20px 25px;
+border: 3px solid #FCC96E;
+color:#732002;
+border-radius: 15px;
+font-weight: 600;
+}
+
+.app__container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  height: 300px;
+  }
+
+.app__text{
+  font-family: "Poetsen One", sans-serif;
+  font-size: 1.40rem;
+  text-align: center;
+  background-image: url(./images/paper-texture.jpg);
+  background-size:cover;
+  width: 70%;
+  color: black;
+  padding: 20px 20px;
+  border: 5px solid #FCC96E;
+  border-radius: 15px;
+  box-shadow: 0 0 20px black;
+  }
+
+.app__author{
+  font-size: 1rem;
+  font-weight: 400;
+  color:rgb(250, 235, 235);
+  padding: 2rem 3rem;
+  border: 3px solid #FCC96E;
+  border-radius: 15px;
+  box-shadow: 0 0 25px black;
+  backdrop-filter: blur(10px);
+  overflow: hidden;
+  text-shadow:0px 3px 3px #240D07;
+  }
+
